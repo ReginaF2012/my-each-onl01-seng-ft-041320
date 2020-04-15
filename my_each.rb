@@ -1,4 +1,4 @@
 def my_each(array)
   i = 0
-  yield {}
+  yield { |i| puts array[i] i+=1}
 end
